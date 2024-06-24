@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsKTX" targetNamespace="http://tempuri.org/dsKTX.xsd" xmlns:mstns="http://tempuri.org/dsKTX.xsd" xmlns="http://tempuri.org/dsKTX.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsKTX" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="dsKTX" msprop:Generator_DataSetName="dsKTX">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtStudent" msprop:Generator_RowEvHandlerName="dtStudentRowChangeEventHandler" msprop:Generator_RowDeletedName="dtStudentRowDeleted" msprop:Generator_RowDeletingName="dtStudentRowDeleting" msprop:Generator_RowEvArgName="dtStudentRowChangeEvent" msprop:Generator_TablePropName="dtStudent" msprop:Generator_RowChangedName="dtStudentRowChanged" msprop:Generator_RowChangingName="dtStudentRowChanging" msprop:Generator_TableClassName="dtStudentDataTable" msprop:Generator_RowClassName="dtStudentRow" msprop:Generator_TableVarName="tabledtStudent" msprop:Generator_UserTableName="dtStudent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="mobile" msprop:Generator_ColumnPropNameInRow="mobile" msprop:Generator_ColumnPropNameInTable="mobileColumn" msprop:Generator_ColumnVarNameInTable="columnmobile" msprop:Generator_UserColumnName="mobile" type="xs:long" />
+              <xs:element name="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_UserColumnName="name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fname" msprop:Generator_ColumnPropNameInRow="fname" msprop:Generator_ColumnPropNameInTable="fnameColumn" msprop:Generator_ColumnVarNameInTable="columnfname" msprop:Generator_UserColumnName="fname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mname" msprop:Generator_ColumnPropNameInRow="mname" msprop:Generator_ColumnPropNameInTable="mnameColumn" msprop:Generator_ColumnVarNameInTable="columnmname" msprop:Generator_UserColumnName="mname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_UserColumnName="email">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="paddress" msprop:Generator_ColumnPropNameInRow="paddress" msprop:Generator_ColumnPropNameInTable="paddressColumn" msprop:Generator_ColumnVarNameInTable="columnpaddress" msprop:Generator_UserColumnName="paddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="college" msprop:Generator_ColumnPropNameInRow="college" msprop:Generator_ColumnPropNameInTable="collegeColumn" msprop:Generator_ColumnVarNameInTable="columncollege" msprop:Generator_UserColumnName="college">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idproof" msprop:Generator_ColumnPropNameInRow="idproof" msprop:Generator_ColumnPropNameInTable="idproofColumn" msprop:Generator_ColumnVarNameInTable="columnidproof" msprop:Generator_UserColumnName="idproof">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="roomNo" msprop:Generator_ColumnPropNameInRow="roomNo" msprop:Generator_ColumnPropNameInTable="roomNoColumn" msprop:Generator_ColumnVarNameInTable="columnroomNo" msprop:Generator_UserColumnName="roomNo" type="xs:string" />
+              <xs:element name="living" msprop:Generator_ColumnPropNameInRow="living" msprop:Generator_ColumnPropNameInTable="livingColumn" msprop:Generator_ColumnVarNameInTable="columnliving" msprop:Generator_UserColumnName="living" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdClass" msprop:Generator_ColumnPropNameInRow="IdClass" msprop:Generator_ColumnPropNameInTable="IdClassColumn" msprop:Generator_ColumnVarNameInTable="columnIdClass" msprop:Generator_UserColumnName="IdClass" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtRooms" msprop:Generator_RowEvHandlerName="dtRoomsRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRoomsRowDeleted" msprop:Generator_RowDeletingName="dtRoomsRowDeleting" msprop:Generator_RowEvArgName="dtRoomsRowChangeEvent" msprop:Generator_TablePropName="dtRooms" msprop:Generator_RowChangedName="dtRoomsRowChanged" msprop:Generator_RowChangingName="dtRoomsRowChanging" msprop:Generator_TableClassName="dtRoomsDataTable" msprop:Generator_RowClassName="dtRoomsRow" msprop:Generator_TableVarName="tabledtRooms" msprop:Generator_UserTableName="dtRooms">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="roomNo" msprop:Generator_ColumnPropNameInRow="roomNo" msprop:Generator_ColumnPropNameInTable="roomNoColumn" msprop:Generator_ColumnVarNameInTable="columnroomNo" msprop:Generator_UserColumnName="roomNo" type="xs:string" />
+              <xs:element name="roomStatus" msprop:Generator_ColumnPropNameInRow="roomStatus" msprop:Generator_ColumnPropNameInTable="roomStatusColumn" msprop:Generator_ColumnVarNameInTable="columnroomStatus" msprop:Generator_UserColumnName="roomStatus">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Booked" msprop:Generator_ColumnPropNameInRow="Booked" msprop:Generator_ColumnPropNameInTable="BookedColumn" msprop:Generator_ColumnVarNameInTable="columnBooked" msprop:Generator_UserColumnName="Booked" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtEmployee" msprop:Generator_RowEvHandlerName="dtEmployeeRowChangeEventHandler" msprop:Generator_RowDeletedName="dtEmployeeRowDeleted" msprop:Generator_RowDeletingName="dtEmployeeRowDeleting" msprop:Generator_RowEvArgName="dtEmployeeRowChangeEvent" msprop:Generator_TablePropName="dtEmployee" msprop:Generator_RowChangedName="dtEmployeeRowChanged" msprop:Generator_RowChangingName="dtEmployeeRowChanging" msprop:Generator_TableClassName="dtEmployeeDataTable" msprop:Generator_RowClassName="dtEmployeeRow" msprop:Generator_TableVarName="tabledtEmployee" msprop:Generator_UserTableName="dtEmployee">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="emobile" msprop:Generator_ColumnPropNameInRow="emobile" msprop:Generator_ColumnPropNameInTable="emobileColumn" msprop:Generator_ColumnVarNameInTable="columnemobile" msprop:Generator_UserColumnName="emobile" type="xs:long" />
+              <xs:element name="ename" msprop:Generator_ColumnPropNameInRow="ename" msprop:Generator_ColumnPropNameInTable="enameColumn" msprop:Generator_ColumnVarNameInTable="columnename" msprop:Generator_UserColumnName="ename">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="efname" msprop:Generator_ColumnPropNameInRow="efname" msprop:Generator_ColumnPropNameInTable="efnameColumn" msprop:Generator_ColumnVarNameInTable="columnefname" msprop:Generator_UserColumnName="efname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="emname" msprop:Generator_ColumnPropNameInRow="emname" msprop:Generator_ColumnPropNameInTable="emnameColumn" msprop:Generator_ColumnVarNameInTable="columnemname" msprop:Generator_UserColumnName="emname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="eemail" msprop:Generator_ColumnPropNameInRow="eemail" msprop:Generator_ColumnPropNameInTable="eemailColumn" msprop:Generator_ColumnVarNameInTable="columneemail" msprop:Generator_UserColumnName="eemail">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="epaddress" msprop:Generator_ColumnPropNameInRow="epaddress" msprop:Generator_ColumnPropNameInTable="epaddressColumn" msprop:Generator_ColumnVarNameInTable="columnepaddress" msprop:Generator_UserColumnName="epaddress">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="eidproof" msprop:Generator_ColumnPropNameInRow="eidproof" msprop:Generator_ColumnPropNameInTable="eidproofColumn" msprop:Generator_ColumnVarNameInTable="columneidproof" msprop:Generator_UserColumnName="eidproof">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="edesignation" msprop:Generator_ColumnPropNameInRow="edesignation" msprop:Generator_ColumnPropNameInTable="edesignationColumn" msprop:Generator_ColumnVarNameInTable="columnedesignation" msprop:Generator_UserColumnName="edesignation">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="working" msprop:Generator_ColumnPropNameInRow="working" msprop:Generator_ColumnPropNameInTable="workingColumn" msprop:Generator_ColumnVarNameInTable="columnworking" msprop:Generator_UserColumnName="working" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:dtStudent" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="dtRooms_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:dtRooms" />
+      <xs:field xpath="mstns:roomNo" />
+    </xs:unique>
+    <xs:unique name="dtEmployee_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:dtEmployee" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="dtRooms_dtStudent" msdata:parent="dtRooms" msdata:child="dtStudent" msdata:parentkey="roomNo" msdata:childkey="roomNo" msprop:Generator_UserParentTable="dtRooms" msprop:Generator_UserChildTable="dtStudent" msprop:Generator_RelationVarName="relationdtRooms_dtStudent" msprop:Generator_UserRelationName="dtRooms_dtStudent" msprop:Generator_ChildPropName="GetdtStudentRows" msprop:Generator_ParentPropName="dtRoomsRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
